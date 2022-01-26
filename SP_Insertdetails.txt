@@ -1,0 +1,8 @@
+CREATE PROCEDURE SP_Insertdetails
+(
+	@Firstname VARCHAR(50),
+	@LAstname VARCHAR(50)
+)
+AS
+	INSERT INTO DETAILS VALUES(@Firstname,@LAstname);
+        
